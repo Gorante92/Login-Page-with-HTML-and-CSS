@@ -1,0 +1,101 @@
+/*GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI";
+  background-color: #693ce4;
+  color: #737373;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+/*login box styles */
+.login-box {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/*Inside box elemen styles */
+
+h2 {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 65px;
+  word-spacing: 7px;
+}
+
+input[type="email"] {
+  margin-left: 65px;
+  position: relative;
+  width: 70%;
+  padding: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: none;
+  background-color: #e5e5e5;
+  border-radius: 3px;
+}
+input[type="password"] {
+  margin-left: 65px;
+  position: relative;
+  width: 70%;
+  padding: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: none;
+  background-color: #e5e5e5;
+  border-radius: 3px;
+}
+.checkbox {
+  margin-left: 65px;
+  position: relative;
+  width: 70%;
+  margin-top: 5px;
+}
+
+#btn {
+  margin-left: 65px;
+  position: relative;
+  background-color: #693ce4;
+  text-align: center;
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  width: 70%;
+  padding: 20px;
+  margin-right: 50px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn2 {
+  position: relative;
+  margin-left: 40px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#btn2 > a {
+  color: #737373;
+  margin-right: 60px;
+}
